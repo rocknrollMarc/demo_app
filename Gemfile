@@ -3,7 +3,6 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.2'
 gem 'bootstrap-sass', '2.3.2.0'
-gem 'pg', '0.15.1'
 gem 'bcrypt-ruby', '3.1.2'
 gem 'meta_request'
 gem 'better_errors'
@@ -28,6 +27,7 @@ group :test do
   gem 'factory_girl_rails', '4.2.1'
   gem 'cucumber-rails', '1.4.0', :require => false
   gem 'database_cleaner', github: 'bmabey/database_cleaner'
+  gem 'growl', '1.0.3'
 end
 
 # Use sqlite3 as the database for Active Record

@@ -1,4 +1,3 @@
-
 require 'spec_helper'
 
 describe "Authentication" do
@@ -154,4 +153,3 @@ describe "Authentication" do
     end
   end
 end
-
