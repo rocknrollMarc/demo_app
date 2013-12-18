@@ -236,4 +236,6 @@ describe "User pages" do
       it { should have_link(user.name, href: user_path(user)) }
     end
   end
+
+
 end
