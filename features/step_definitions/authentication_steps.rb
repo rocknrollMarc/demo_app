@@ -13,7 +13,7 @@ end
 
 Given /^the user has an account$/ do
   @user = User.create(name: "Example User", email: "user@example.com",
-  password: "foobar", password_confirmation: "foobar")
+                      password: "foobar", password_confirmation: "foobar")
 end
 
 When /^the user submits valid signin information$/ do
@@ -29,6 +29,3 @@ end
 Then /^they should see a signout link$/ do
   expect(page).to have_link('Sign out', href: signout_path)
 end
-
-
-
